@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE12NetXQuery": {
+      "commandName": "Project",
+      "commandLineArgs": "-qs:\"<root>{random-number-generator(current-dateTime())?permute(1 to 10)!<item>{.}</item>}</root>\" !indent=yes"
+    }
+  }
+}

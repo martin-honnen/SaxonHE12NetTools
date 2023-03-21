@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE12NetXslt": {
+      "commandName": "Project",
+      "commandLineArgs": "-it -xsl:https://martin-honnen.github.io/xslt/processorTestHTML5Xslt3InitialTempl.xsl"
+    }
+  }
+}
