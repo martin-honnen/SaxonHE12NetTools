@@ -1,6 +1,7 @@
 ﻿using net.sf.saxon;
 using org.nineml.coffeesacks;
 using System.Diagnostics;
+using System.Reflection;
 
 namespace SaxonHE12NetIXQuery;
 
