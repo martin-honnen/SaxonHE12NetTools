@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE12NetIXQuery": {
+      "commandName": "Project",
+      "commandLineArgs": "-t -q:CoffeeSacksInXQuery-Example1.xq"
+    }
+  }
+}
