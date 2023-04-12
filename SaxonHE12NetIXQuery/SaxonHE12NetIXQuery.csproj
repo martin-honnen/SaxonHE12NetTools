@@ -25,9 +25,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <None Update="CoffeeSacksInXQuery-Example2.xq">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </None>
     <None Update="CoffeeSacksInXQuery-Example1.xq">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
