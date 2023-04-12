@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SaxonHE12NetIXslt": {
+      "commandName": "Project",
+      "commandLineArgs": "-t -it -xsl:CoffeeSacksInXslt-Example1.xsl"
+    }
+  }
+}

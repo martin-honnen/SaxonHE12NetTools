@@ -12,9 +12,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Projektmappenelemente", "Pr
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaxonHE12NetXQuery", "SaxonHE12NetXQuery\SaxonHE12NetXQuery.csproj", "{585EC705-280E-4839-9680-32DC1CA51786}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeSacksHelperLib", "CoffeeSacksHelperLib\CoffeeSacksHelperLib.csproj", "{55D22778-DBB4-4758-A518-B67EBBB5409F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeSacksHelperLib", "CoffeeSacksHelperLib\CoffeeSacksHelperLib.csproj", "{55D22778-DBB4-4758-A518-B67EBBB5409F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonHE12NetIXQuery", "SaxonHE12NetIXQuery\SaxonHE12NetIXQuery.csproj", "{F1001D40-4688-40F7-8AAE-9F0860BAFA8B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaxonHE12NetIXQuery", "SaxonHE12NetIXQuery\SaxonHE12NetIXQuery.csproj", "{F1001D40-4688-40F7-8AAE-9F0860BAFA8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonHE12NetIXslt", "SaxonHE12NetIXslt\SaxonHE12NetIXslt.csproj", "{1084F93C-F397-4A5E-A579-71703FB1E135}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,6 +40,10 @@ Global
 		{F1001D40-4688-40F7-8AAE-9F0860BAFA8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F1001D40-4688-40F7-8AAE-9F0860BAFA8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F1001D40-4688-40F7-8AAE-9F0860BAFA8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1084F93C-F397-4A5E-A579-71703FB1E135}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1084F93C-F397-4A5E-A579-71703FB1E135}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1084F93C-F397-4A5E-A579-71703FB1E135}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1084F93C-F397-4A5E-A579-71703FB1E135}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
