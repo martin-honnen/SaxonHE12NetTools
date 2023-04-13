@@ -16,7 +16,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoffeeSacksHelperLib", "Cof
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaxonHE12NetIXQuery", "SaxonHE12NetIXQuery\SaxonHE12NetIXQuery.csproj", "{F1001D40-4688-40F7-8AAE-9F0860BAFA8B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SaxonHE12NetIXslt", "SaxonHE12NetIXslt\SaxonHE12NetIXslt.csproj", "{1084F93C-F397-4A5E-A579-71703FB1E135}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SaxonHE12NetIXslt", "SaxonHE12NetIXslt\SaxonHE12NetIXslt.csproj", "{1084F93C-F397-4A5E-A579-71703FB1E135}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeFilterHelperLib", "CoffeeFilterHelperLib\CoffeeFilterHelperLib.csproj", "{433280A0-463E-490C-88A3-E31DC5EBDADD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -44,6 +46,10 @@ Global
 		{1084F93C-F397-4A5E-A579-71703FB1E135}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1084F93C-F397-4A5E-A579-71703FB1E135}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1084F93C-F397-4A5E-A579-71703FB1E135}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433280A0-463E-490C-88A3-E31DC5EBDADD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433280A0-463E-490C-88A3-E31DC5EBDADD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433280A0-463E-490C-88A3-E31DC5EBDADD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433280A0-463E-490C-88A3-E31DC5EBDADD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

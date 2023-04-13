@@ -3,6 +3,10 @@
     "SaxonHE12NetIXQuery": {
       "commandName": "Project",
       "commandLineArgs": "-t -q:CoffeeSacksInXQuery-Example1.xq"
+    },
+    "SaxonHE12NetIXQueryBomTest": {
+      "commandName": "Project",
+      "commandLineArgs": "-t -q:CoffeeSacksInXQuery-Example1.xq grammar-uri=date.ixml"
     }
   }
 }
