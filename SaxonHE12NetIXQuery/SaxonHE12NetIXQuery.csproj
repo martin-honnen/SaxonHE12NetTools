@@ -9,7 +9,7 @@
     <ToolCommandName>SaxonHE12NetIXQuery</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>12.1.0</Version>
+    <Version>12.1.0.1</Version>
     <Title>Saxon HE 12 .NET XQuery 3.1 command line tool with Invisible XML extensions</Title>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright 2023 Martin Honnen</Copyright>
@@ -22,7 +22,7 @@
     <PackageReleaseNotes>This is the first release using Saxon HE 12.1 and CoffeeSacks 2.0.0.</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE11NetTools/tree/master/SaxonHE12NetIXQuery</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetIXQuery</PackageProjectUrl>
 
   </PropertyGroup>
 
