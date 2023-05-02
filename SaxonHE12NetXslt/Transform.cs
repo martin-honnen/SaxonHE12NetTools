@@ -8,7 +8,7 @@ public class Xslt
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHENetXslt 12.1.0 on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHENetXslt 12.2.0 on .NET {Environment.Version} {Environment.OSVersion}");
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
