@@ -9,7 +9,7 @@ public class IXmlTransform : Transform
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHENetIXslt 12.3.3.2" + $" on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHENetIXslt 12.3.8.7" + $" on .NET {Environment.Version} {Environment.OSVersion}");
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 

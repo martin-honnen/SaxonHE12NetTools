@@ -1,4 +1,4 @@
-﻿# Thin .NET 6 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.3 Java, extended with CoffeeSacks 3.2.0 Invisible XML extension
+﻿# Thin .NET 6 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.3 Java, extended with CoffeeSacks 3.2.6 Invisible XML extension
 This tool is a .NET 6 console app/a dotnet tool providing a thin .NET 6 wrapper around an IKVM cross-compiled version of Saxon HE 12.3 Java to perform XSLT 3.0 transformations.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
