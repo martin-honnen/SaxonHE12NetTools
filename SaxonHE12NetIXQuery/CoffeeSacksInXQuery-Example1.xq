@@ -7,7 +7,7 @@ declare option output:indent 'yes';
 
 declare variable $grammar-uri as xs:string external := 'date2.ixml';
 
-declare variable $input-date as xs:string external := '10 November 2023';
+declare variable $input-date as xs:string external := '30 November 2023';
 
 <invisible-xml-test>
 {
