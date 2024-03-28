@@ -1,13 +1,14 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.8" />
+    <PackageReference Include="IKVM" Version="8.8.0-pre.1" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.9" />
     <MavenReference Include="org.nineml:coffeesacks" Version="3.2.6" />
     <!--<MavenReference Include="org.nineml:coffeefilter" Version="2.0.1" />-->
   </ItemGroup>
