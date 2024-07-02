@@ -9,17 +9,17 @@
     <ToolCommandName>SaxonHE12NetIXQuery</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>12.4.8.9</Version>
+    <Version>12.5.0</Version>
     <Title>Saxon HE 12 .NET XQuery 3.1 command line tool with Invisible XML extensions</Title>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright 2024 Martin Honnen</Copyright>
     <Description>
-      This is a thin .NET 6 and .NET 8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.4 and IKVM cross-compiled Invisible XML CoffeeSacks extension library, allowing the use of XQuery 3.1 with Invisible XML extensions from the command line.
-      The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.4 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
+      This is a thin .NET 6 and .NET 8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5 and IKVM cross-compiled Invisible XML CoffeeSacks extension library, allowing the use of XQuery 3.1 with Invisible XML extensions from the command line.
+      The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.5 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>xquery;xquery-3.1;xml;json;xml;invisible-xml</PackageTags>
-    <PackageReleaseNotes>This is the first release using Saxon HE 12.4 and CoffeeSacks 3.2.6, using IKVM.Maven.Sdk 1.6.9/IKVM 8.8.1 for .NET 6 and .NET 8</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release using Saxon HE 12.5 and CoffeeSacks 3.2.6, using IKVM.Maven.Sdk 1.6.9/IKVM 8.8.1 for .NET 6 and .NET 8</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetIXQuery</PackageProjectUrl>
@@ -29,7 +29,7 @@
   <ItemGroup>
     <PackageReference Include="IKVM" Version="8.8.1" />
     <PackageReference Include="IKVM.Maven.Sdk" Version="1.6.9" />
-    <MavenReference Include="net.sf.saxon:Saxon-HE" Version="12.4" />
+    <MavenReference Include="net.sf.saxon:Saxon-HE" Version="12.5" />
   </ItemGroup>
 
   <ItemGroup>
