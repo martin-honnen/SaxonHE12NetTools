@@ -21,7 +21,7 @@
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>This is the first release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.0/IKVM 8.10.1 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 6 and .NET 8</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.1 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 6 and .NET 8</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 
