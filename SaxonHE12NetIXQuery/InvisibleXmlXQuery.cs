@@ -9,7 +9,7 @@ public class InvisibleXmlXQuery : Query
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHENetIXQuery 12.5.9.4 on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHENetIXQuery 12.5.9.5 on .NET {Environment.Version} {Environment.OSVersion}");
 
         var stopWatch = new Stopwatch();
         stopWatch.Start();
