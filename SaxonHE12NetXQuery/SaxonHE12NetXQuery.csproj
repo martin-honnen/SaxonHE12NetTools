@@ -10,7 +10,7 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 12 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-    <Version>12.5.9.6-pre1</Version>
+    <Version>12.5.9.6-pre2</Version>
     <Authors>Martin Honnen</Authors>
     <Description>
       This is a thin .NET 8 and .NET 9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5, allowing the use of XQuery 3.1 from the command line.
@@ -21,7 +21,7 @@
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>This is the first preview release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.2 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 8 and .NET 9 RC 1</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the second preview release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.2 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 8 and .NET 9 RC 2</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 

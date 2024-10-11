@@ -9,7 +9,7 @@
     <ToolCommandName>SaxonHE12NetXslt</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>12.5.9.6-pre1</Version>
+    <Version>12.5.9.6-pre2</Version>
     <Title>Saxon HE 12 .NET Xslt 3.0 command line tool</Title>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright 2024 Martin Honnen</Copyright>
@@ -19,7 +19,7 @@
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>xslt;xslt-3.0;xml;json;transformation</PackageTags>
-    <PackageReleaseNotes>This is the first preview release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.2 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 8 and .NET 9 RC 1</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the second preview release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.2 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 8 and .NET 9 RC 2</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetXslt</PackageProjectUrl>
