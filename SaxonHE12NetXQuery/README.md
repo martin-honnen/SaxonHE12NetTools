@@ -1,8 +1,8 @@
-﻿# Thin .NET 6/8 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.5 Java
-This tool is a .NET 6/8 console app/a dotnet tool providing a thin .NET 6 wrapper around an IKVM cross-compiled version of Saxon HE 12.5 Java to run XQuery 3.1.
+﻿# Thin .NET 6/8/9 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.5 Java
+This tool is a .NET 6/8/9 console app/a dotnet tool providing a thin .NET 6/8/9 wrapper around an IKVM cross-compiled version of Saxon HE 12.5 Java to run XQuery 3.1.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
-https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 6/8 code.
+https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 6/8/9 code.
 
 Please understand that this is my own experiment, it uses the official Saxon HE 12.5 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
 

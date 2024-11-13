@@ -2,31 +2,31 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net6.0;net8.0</TargetFrameworks>
+    <TargetFrameworks>net6.0;net8.0;net9.0</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>SaxonHE12NetXslt</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>12.5.9.5</Version>
+    <Version>12.5.9.6</Version>
     <Title>Saxon HE 12 .NET Xslt 3.0 command line tool</Title>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright 2024 Martin Honnen</Copyright>
     <Description>
-      This is a thin .NET 6 and .NET 8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5, allowing the use of XSLT 3.0 from the command line.
+      This is a thin .NET 6/8/9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5, allowing the use of XSLT 3.0 from the command line.
       The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.5 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>xslt;xslt-3.0;xml;json;transformation</PackageTags>
-    <PackageReleaseNotes>This is the first release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.2 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 6 and .NET 8</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.3 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 6 and .NET 8 and .NET 9</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetXslt</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.10.2" />
+    <PackageReference Include="IKVM" Version="8.10.3" />
     <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.2" />
     <MavenReference Include="net.sf.saxon:Saxon-HE" Version="12.5" />
   </ItemGroup>
