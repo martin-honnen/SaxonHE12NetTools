@@ -2,24 +2,24 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <TargetFramework>net8.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <PackAsTool>true</PackAsTool>
     <ToolCommandName>SaxonHE12NetIXQuery</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>12.5.9.7</Version>
+    <Version>12.5.9.8</Version>
     <Title>Saxon HE 12 .NET XQuery 3.1 command line tool with Invisible XML extensions</Title>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright 2025 Martin Honnen</Copyright>
     <Description>
-      This is a thin .NET 8/9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5 and IKVM cross-compiled Invisible XML CoffeeSacks extension library, allowing the use of XQuery 3.1 with Invisible XML extensions from the command line.
+      This is a thin .NET 8 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5 and IKVM cross-compiled Invisible XML CoffeeSacks extension library, allowing the use of XQuery 3.1 with Invisible XML extensions from the command line.
       The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.5 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>xquery;xquery-3.1;xml;json;xml;invisible-xml</PackageTags>
-    <PackageReleaseNotes>This is the first release using Saxon HE 12.5 and CoffeeSacks 3.2.7 and the lastest versions of IKVM.Maven.Sdk 1.9.0/IKVM 8.11.0 (using an updated JDK 8u432-b06) for .NET 8 and .NET 9</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release using Saxon HE 12.5 and CoffeeSacks 3.2.7 and the lastest versions of IKVM.Maven.Sdk 1.9.0/IKVM 8.11.0 (using an updated JDK 8u432-b06) for .NET 8</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetIXQuery</PackageProjectUrl>
