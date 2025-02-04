@@ -10,14 +10,14 @@ So feel free to use to try and use it under the Mozilla Public License 2.0.
 
 [The releases can be found later on NuGet](https://www.nuget.org/packages/SaxonHE12NetXslt/).
 
-Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XSLT 3.0](https://www.w3.org/TR/xslt-30/) with .NET 6 or later, without depending on the so far commercial only SaxonCS from Saxonica.
+Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XSLT 3.0](https://www.w3.org/TR/xslt-30/) with .NET 8 or later, without depending on the so far commercial only SaxonCS from Saxonica.
 
 Known issues: I have created the project with VS 2022 Community Edition on Windows, apps built that way could be deployed and run successfully under Linux or Mac where the dotnet .NET 8/9 runtime is installed; by now, the https://github.com/ikvm-revived/ikvm-maven does seem to work on a Mac, so in experiments of your own you should be able to develop and build on Windows and MacOS.
 
 ## How to use
 Install with e.g. 
 ```
-dotnet tool install --global SaxonHE12NetXslt --version 12.5.9.6
+dotnet tool install --global SaxonHE12NetXslt --version 12.5.9.7
 ```
 
 Then you can run `SaxonHE12NetXslt`, it takes the same command line argument like Saxon HE Java, so for example, to run XSLT 3.0 with the default `xsl:initial-template` you use e.g. `SaxonHE12NetXslt -it -xsl:sheet.xsl` or `SaxonHE12NetXslt -it -xsl:sheet.xsl -o:result.html`.

@@ -10,6 +10,6 @@ Feel free to use to try and use it under the Mozilla Public License 2.0.
 
 [The releases can be found later on NuGet](https://www.nuget.org/packages/SaxonHE12NetIXslt/).
 
-Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XSLT 3.0](https://www.w3.org/TR/xslt-30/) with .NET 6 or later, without depending on the so far commercial only SaxonCS from Saxonica.
+Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XSLT 3.0](https://www.w3.org/TR/xslt-30/) with .NET 8 or later, without depending on the so far commercial only SaxonCS from Saxonica.
 
 Known issues: I have created the project with VS 2022 Community Edition on Windows, apps built that way could be deployed and run successfully under Linux or Mac where the dotnet .NET 8/9 runtime is installed; by now, the latest https://github.com/ikvm-revived/ikvm-maven seems to work on a Mac, so in experiments of your own you should be able to develop and build on Windows and MacOS.

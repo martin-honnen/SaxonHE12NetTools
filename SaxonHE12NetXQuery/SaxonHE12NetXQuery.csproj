@@ -10,24 +10,24 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 12 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-    <Version>12.5.9.6</Version>
+    <Version>12.5.9.7</Version>
     <Authors>Martin Honnen</Authors>
     <Description>
       This is a thin .NET 8/9 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.5, allowing the use of XQuery 3.1 from the command line.
       The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.5 Java release from Maven, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
     </Description>
-    <Copyright>Copyright 2024 Martin Honnen</Copyright>
+    <Copyright>Copyright 2025 Martin Honnen</Copyright>
     <PackageTags>xquery;xquery-3.1;xml;xpath;xpath-3.1;json</PackageTags>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>This is the first release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.8.2/IKVM 8.10.3 (using for the first time in years an up to date Java 8/1.8 JDK 422) for .NET 8 and .NET 9</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release based on Saxon HE 12.5 and the latest releases of IKVM.Maven.Sdk 1.9.0/IKVM 8.11.0 (using for the first time in years an up to date Java JDK 8u432-b06) for .NET 8 and .NET 9</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.10.3" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.8.2" />
+    <PackageReference Include="IKVM" Version="8.11.0" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.0" />
     <MavenReference Include="net.sf.saxon:Saxon-HE" Version="12.5" />
   </ItemGroup>
 

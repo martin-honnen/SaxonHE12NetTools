@@ -10,6 +10,6 @@ Feel free to use to try and use it under the Mozilla Public License 2.0.
 
 [The releases can be found later on NuGet](https://www.nuget.org/packages/SaxonHE12NetIXQuery/).
 
-Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XQuery 3.1](https://www.w3.org/TR/xquery-31/) with Invisible XML support with .NET 6/8/9, without depending on the so far commercial only SaxonCS from Saxonica.
+Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XQuery 3.1](https://www.w3.org/TR/xquery-31/) with Invisible XML support with .NET 8/9, without depending on the so far commercial only SaxonCS from Saxonica.
 
 Known issues: I have created the project with VS 2022 Community Edition on Windows, apps built that way could be deployed and run successfully under Linux or Mac where the dotnet .NET 8 or .NET 9 runtime is installed; by now, the latest https://github.com/ikvm-revived/ikvm-maven does seem to work on a Mac, so in experiments of your own you should be able to develop and build on Windows and MacOS.
