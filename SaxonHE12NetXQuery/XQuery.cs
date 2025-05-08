@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Reflection;
 using net.sf.saxon;
 
 
@@ -7,12 +8,12 @@ public class XQuery
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHE12NetXQuery 12.5.9.9 on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHE12NetXQuery 12.6.0 on .NET {Environment.Version} {Environment.OSVersion}");
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
-        //ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver"));
-        //ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver_data"));
+        ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver"));
+        ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver_data"));
 
         Query.main(args);
 
