@@ -1,10 +1,10 @@
-# Thin .NET 8 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.5 Java, extended with CoffeeSacks Invisible XML extension library 3.2.7
-This tool is a .NET 8 console app/a dotnet tool providing a thin .NET 8 wrapper around an IKVM cross-compiled version of Saxon HE 12.5 Java to run XQuery 3.1 with additional support for Invisible XML.
+# Thin .NET 8 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.6 Java, extended with CoffeeSacks Invisible XML extension library 3.2.9
+This tool is a .NET 8 console app/a dotnet tool providing a thin .NET 8 wrapper around an IKVM cross-compiled version of Saxon HE 12.6 Java to run XQuery 3.1 with additional support for Invisible XML.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
-https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12.5 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 8 code, in this case additionally adding a also cross-compiled Java library CoffeeSacks 3.2.7 for Invisible XML support.
+https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12.6 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 8 code, in this case additionally adding a also cross-compiled Java library CoffeeSacks 3.2.9 for Invisible XML support.
 
-Please understand that this is my own experiment, it uses the official Saxon HE 12.5 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
+Please understand that this is my own experiment, it uses the official Saxon HE 12.6 release, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
 
 Feel free to use to try and use it under the Mozilla Public License 2.0. 
 
