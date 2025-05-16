@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using System.Reflection;
 using net.sf.saxon;
 
 
@@ -8,7 +9,7 @@ public class Xslt
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHENetXslt 12.4.7.5 on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHENetXslt 12.7.0 on .NET {Environment.Version} {Environment.OSVersion}");
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
