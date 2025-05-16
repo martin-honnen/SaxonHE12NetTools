@@ -9,12 +9,12 @@ public class Xslt
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHENetXslt 12.6.0 on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHENetXslt 12.7.0 on .NET {Environment.Version} {Environment.OSVersion}");
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
-        ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver"));
-        ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver_data"));
+        //ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver"));
+        //ikvm.runtime.Startup.addBootClassPathAssembly(Assembly.Load("org.xmlresolver.xmlresolver_data"));
 
         Transform.main(args);
 

@@ -8,12 +8,15 @@
 
   <ItemGroup>
     <PackageReference Include="IKVM" Version="8.11.2" />
-    <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.2" />
+    <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.3">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
     <MavenReference Include="org.nineml:coffeesacks" Version="3.2.9" />
-    <IkvmReference Include="C:\Users\marti\IdeaProjects\SaxonHE-12.6\out\artifacts\SaxonHE_12_6_jar\SaxonHE-12.6.jar">
+    <!--<IkvmReference Include="C:\Users\marti\IdeaProjects\SaxonHE-12.6\out\artifacts\SaxonHE_12_6_jar\SaxonHE-12.6.jar">
       <AssemblyVersion>12.6.0</AssemblyVersion>
       <AssemblyName>Saxon-HE</AssemblyName>
-    </IkvmReference>
+    </IkvmReference>-->
     <!--<MavenReference Include="org.nineml:coffeefilter" Version="2.0.1" />-->
   </ItemGroup>
 
