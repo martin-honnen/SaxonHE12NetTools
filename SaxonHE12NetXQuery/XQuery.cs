@@ -8,7 +8,7 @@ public class XQuery
 {
     static void Main(string[] args)
     {
-        Console.WriteLine($"SaxonHE12NetXQuery 12.7.0 on .NET {Environment.Version} {Environment.OSVersion}");
+        Console.WriteLine($"SaxonHE12NetXQuery 12.8.0 on .NET {Environment.Version} {Environment.OSVersion}");
         var stopWatch = new Stopwatch();
         stopWatch.Start();
 
