@@ -9,7 +9,7 @@
     <ToolCommandName>SaxonHE12NetIXslt</ToolCommandName>
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
-    <Version>12.8.0</Version>
+    <Version>12.8.1</Version>
     <Title>Saxon HE 12 .NET Xslt 3.0 command line tool with Invisible XML extensions</Title>
     <Authors>Martin Honnen</Authors>
     <Copyright>Copyright 2025 Martin Honnen</Copyright>
@@ -19,7 +19,7 @@
     </Description>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <PackageTags>xslt;xslt-3.0;xml;json;transformation;invisible-xml</PackageTags>
-    <PackageReleaseNotes>This is the first release using Saxon HE 12.8 and CoffeeSacks 3.2.9 and the latest releases of IKVM.Maven.Sdk 1.9.3 and IKVM 8.12.0 (using the latest Java JDK 8u452-b09) for .NET 8</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release using Saxon HE 12.8 and CoffeeSacks 3.2.9 and the latest releases of IKVM.Maven.Sdk 1.9.3 and IKVM 8.13.0 (using the latest Java JDK 8u462-b08) for .NET 8</PackageReleaseNotes>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetIXslt</PackageProjectUrl>
@@ -27,7 +27,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="IKVM" Version="8.12.0" />
+    <PackageReference Include="IKVM" Version="8.13.0" />
     <PackageReference Include="IKVM.Maven.Sdk" Version="1.9.3">
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
