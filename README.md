@@ -2,7 +2,7 @@
 These tools are .NET 10 console apps/a dotnet tools providing a thin .NET 10 wrapper around an IKVM cross-compiled version of Saxon HE 12.9 Java to perform XSLT 3.0 transformations or to run XQuery 3.1.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
-https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 8/10 code.
+https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 10 code.
 
 Please understand that this is my own experiment, it uses the official Saxon HE 12.9 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
 
