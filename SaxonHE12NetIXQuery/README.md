@@ -1,10 +1,10 @@
-# Thin .NET 10 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.9 Java, extended with CoffeeSacks Invisible XML extension library 3.3.4
-This tool is a .NET 10 console app/a dotnet tool providing a thin .NET 10 wrapper around an IKVM cross-compiled version of Saxon HE 12.9 Java to run XQuery 3.1 with additional support for Invisible XML.
+# Thin .NET 10 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.10 Java, extended with CoffeeSacks Invisible XML extension library 3.3.14
+This tool is a .NET 10 console app/a dotnet tool providing a thin .NET 10 wrapper around an IKVM cross-compiled version of Saxon HE 12.10 Java to run XQuery 3.1 with additional support for Invisible XML.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
-https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12.9 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 10 code, in this case additionally adding a also cross-compiled Java library CoffeeSacks 3.3.4 for Invisible XML support.
+https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12.10 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 10 code, in this case additionally adding a also cross-compiled Java library CoffeeSacks 3.3.14 for Invisible XML support.
 
-Please understand that this is my own experiment, it uses the official Saxon HE 12.9 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
+Please understand that this is my own experiment, it uses the official Saxon HE 12.10 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
 
 Feel free to use to try and use it under the Mozilla Public License 2.0. 
 

@@ -9,7 +9,7 @@
   <xsl:template match="/" name="xsl:initial-template">
     <xsl:variable name="parser" select="cs:load-grammar('date.ixml')"/>
     <doc>
-      <xsl:sequence select="$parser('12 January 2026')"/>
+      <xsl:sequence select="$parser('11 August 2026')"/>
     </doc>
   </xsl:template>
 

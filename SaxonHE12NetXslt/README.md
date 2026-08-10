@@ -1,23 +1,25 @@
-﻿﻿# Thin .NET 10 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.9 Java
-This tool is a .NET 10 console app/a dotnet tool providing a thin .NET 10 wrapper around an IKVM cross-compiled version of Saxon HE 12.9 Java to perform XSLT 3.0 transformations.
+﻿﻿# Thin .NET 10 console app/dotnet tool around IKVM cross-compiled .NET version of Saxon-HE 12.10 Java
+This tool is a .NET 10 console app/a dotnet tool providing a thin .NET 10 wrapper around an IKVM cross-compiled version of Saxon HE 12.10 Java to perform XSLT 3.0 transformations.
 
 This is one of the sample projects outlining my successful attempt to apply https://github.com/ikvm-revived/ikvm and
 https://github.com/ikvm-revived/ikvm-maven to use the open-source Saxon HE 12 Java XSLT 3.0, XQuery 3.1 and XPath 3.1 library in .NET 10 code.
 
-Please understand that this is my own experiment, it uses the official Saxon HE 12.9 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
+Please understand that this is my own experiment, it uses the official Saxon HE 12.10 release from Maven, but the integration with IKVM and IKVM Maven is an experimental work of my own, not in any way an officially tested and supported product by Saxonica, the company that has produced Saxon.
 
 So feel free to use to try and use it under the Mozilla Public License 2.0. 
 
 [The releases can be found later on NuGet](https://www.nuget.org/packages/SaxonHE12NetXslt/).
 
-Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XSLT 3.0](https://www.w3.org/TR/xslt-30/) with .NET 10, without depending on the so far commercial only SaxonCS from Saxonica.
+Understand that this is work in progress and kind of experimental, I don't have access to a complete test suite of unit tests to rigorously test this, I nevertheless feel it can be useful for folks to at least know about this option to run [XSLT 3.0](https://www.w3.org/TR/xslt-30/) with .NET 10, without depending on the so far commercial only SaxonCS 12 from Saxonica.
+
+Note also that Saxonica has recently published Saxon 13 which has also a free SaxonCS-HE 13 version, so this project is being updated as long as there will be further Saxon HE 12 releases, in the future you can just use SaxonCS-HE 13.
 
 Known issues: I have created the project with VS 2022 Community Edition on Windows, apps built that way could be deployed and run successfully under Linux or Mac where the dotnet .NET 10 runtime is installed; by now, the https://github.com/ikvm-revived/ikvm-maven does seem to work on a Mac, so in experiments of your own you should be able to develop and build on Windows and MacOS.
 
 ## How to use
 Install with e.g. 
 ```
-dotnet tool install --global SaxonHE12NetXslt --version 12.9.10
+dotnet tool install --global SaxonHE12NetXslt --version 12.10.1
 ```
 
 Then you can run `SaxonHE12NetXslt`, it takes the same command line argument like Saxon HE Java, so for example, to run XSLT 3.0 with the default `xsl:initial-template` you use e.g. `SaxonHE12NetXslt -it -xsl:sheet.xsl` or `SaxonHE12NetXslt -it -xsl:sheet.xsl -o:result.html`.

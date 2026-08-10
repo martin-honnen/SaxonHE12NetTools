@@ -10,18 +10,18 @@
     <PackageOutputPath>./nupkg</PackageOutputPath>
     <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
     <Title>Saxon HE 12 XQuery 3.1 command line tool, cross-compiled using IKMV from Java to .NET</Title>
-    <Version>12.9.10</Version>
+    <Version>12.10.1</Version>
     <Authors>Martin Honnen</Authors>
     <Description>
-      This is a thin .NET 10 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.9, allowing the use of XQuery 3.1 from the command line.
-      The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.9 Java release, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
+      This is a thin .NET 10 command line app/dotnet tool wrapper around the an IKVM compiled Saxon HE 12.10, allowing the use of XQuery 3.1 from the command line.
+      The tool is an experimental use of IKVM and IKVM.Maven and the Saxon HE 12.10 Java release, but it is not in any way a supported or validated product of the company Saxonica, the creator of Saxon HE.
     </Description>
-    <Copyright>Copyright 2025 Martin Honnen</Copyright>
+    <Copyright>Copyright 2026 Martin Honnen</Copyright>
     <PackageTags>xquery;xquery-3.1;xml;xpath;xpath-3.1;json</PackageTags>
     <PackageLicenseExpression>MPL-2.0</PackageLicenseExpression>
     <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
     <PackageReadmeFile>README.md</PackageReadmeFile>
-    <PackageReleaseNotes>This is the first release for .NET 10, based on Saxon HE 12.9 and the latest releases of IKVM.Maven.Sdk 1.11/IKVM 8.15.0 (using an up to date Java JDK 8u472-b08) for .NET 10</PackageReleaseNotes>
+    <PackageReleaseNotes>This is the first release for .NET 10 using Saxon HE 12.10 and the latest releases of IKVM.Maven.Sdk 1.11/IKVM 8.15.0 (using an up to date Java JDK 8u472-b08) for .NET 10</PackageReleaseNotes>
     <PackageProjectUrl>https://github.com/martin-honnen/SaxonHE12NetTools/tree/master/SaxonHE12NetXQuery</PackageProjectUrl>
   </PropertyGroup>
 
@@ -36,7 +36,7 @@
     <MavenReference Include="org.xmlresolver:xmlresolver" Classifier="data" Version="5.3.2" />
     <MavenReference Include="jline:jline" Version="2.14.6" />
     -->
-    <MavenReference Include="net.sf.saxon:Saxon-HE" Version="12.9" />
+    <MavenReference Include="net.sf.saxon:Saxon-HE" Version="12.10" />
     <!--
     <IkvmReference Include="C:\Users\marti\IdeaProjects\SaxonHE-12.6\out\artifacts\SaxonHE_12_6_jar\SaxonHE-12.6.jar">
       <AssemblyVersion>12.6.0</AssemblyVersion>

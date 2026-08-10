@@ -12,7 +12,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <MavenReference Include="org.nineml:coffeefilter" Version="3.3.4" />
+    <MavenReference Include="org.nineml:coffeefilter" Version="3.3.14" />
   </ItemGroup>
   
 </Project>

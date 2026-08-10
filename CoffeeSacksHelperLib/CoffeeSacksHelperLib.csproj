@@ -12,7 +12,7 @@
       <PrivateAssets>all</PrivateAssets>
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
     </PackageReference>
-    <MavenReference Include="org.nineml:coffeesacks" Version="3.3.4" />
+    <MavenReference Include="org.nineml:coffeesacks" Version="3.3.14" />
     <!--<IkvmReference Include="C:\Users\marti\IdeaProjects\SaxonHE-12.6\out\artifacts\SaxonHE_12_6_jar\SaxonHE-12.6.jar">
       <AssemblyVersion>12.6.0</AssemblyVersion>
       <AssemblyName>Saxon-HE</AssemblyName>
